@@ -8,7 +8,8 @@
 import Cocoa
 
 class ViewController: NSViewController {
-
+    @IBOutlet weak var temperatureLabel: NSTextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
